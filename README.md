@@ -1,13 +1,13 @@
 # 11 Note Taker
 
 ## Description 
-For the module 11 assignment I built a back end for a note taker application using express. The application stores / retreives notes using a json file and the user can add and delete notes to the page.
+For the module 11 assignment I built a back end for a note taker application using express. The application stores / retrieves notes using a json file and the user can add and delete notes to the page.
 
 ## Installation
 Use `npm install` to install express / the required packages.
 
 ## Usage
-The user will need to click on the "Get Started" button on the home page to go to notes page. From the note taker page the user can add a new note which displays on the left side of the page. The user can also delete notes from the list.
+The user will need to click on the "Get Started" button on the home page to go to notes page. From the note taker page, the user can add a new note which is saved on the left side of the page. The user can also delete notes from the list.
 
 ## User Story
 
