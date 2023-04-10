@@ -98,7 +98,9 @@ const handleNoteDelete = (e) => {
 // Sets the activeNote and displays it
 const handleNoteView = (e) => {
   e.preventDefault();
+  console.log("test2");
   activeNote = JSON.parse(e.target.parentElement.getAttribute('data-note'));
+  console.log({activeNote})
   renderActiveNote();
 };
 
@@ -133,6 +135,7 @@ const renderNoteList = async (notes) => {
     const spanEl = document.createElement('span');
     spanEl.classList.add('list-item-title');
     spanEl.innerText = text;
+    console.log("test");
     spanEl.addEventListener('click', handleNoteView);
 
     liEl.append(spanEl);
@@ -181,3 +184,4 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+
