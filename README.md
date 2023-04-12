@@ -3,6 +3,8 @@
 ## Description 
 For the module 11 assignment I built a back end for a note taker application using express. The application stores / retrieves notes using a json file and the user can add and delete notes to the page.
 
+Link to deployed application:  https://agile-sierra-62137.herokuapp.com/
+
 ## Installation
 Use `npm install` to install express / the required packages.
 
